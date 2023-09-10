@@ -8,4 +8,5 @@ class Solution:
             if stack:
                 result[i] = stack[-1]
             stack.append(arr[i])
-        return result
+        return stack
+    
